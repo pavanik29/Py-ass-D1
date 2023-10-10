@@ -1,0 +1,8 @@
+principle_amount = float(input("Enter the principle amount: "))
+no_of_months = int(input("Enter the number of months: "))
+rate_of_interest = float(input("Enter the rate of interest: "))
+
+simple_interest = (principle_amount * no_of_months * rate_of_interest) / 100
+emi = (simple_interest + principle_amount) / no_of_months
+
+print("EMI: ", emi)
