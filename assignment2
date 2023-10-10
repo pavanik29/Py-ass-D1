@@ -1,0 +1,4 @@
+hours = int(input("Enter the number of hours: "))
+minutes = hours * 60
+
+print("Minutes: ", minutes)
